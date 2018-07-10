@@ -21,14 +21,16 @@ API.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/smif-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/smif-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/smif-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/smif-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/smif-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/smif-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/smif-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/smif-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/smif-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/smif-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/smif-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/smif-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/smif/badges/version.svg)](https://anaconda.org/conda-forge/smif)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/smif/badges/downloads.svg)](https://anaconda.org/conda-forge/smif)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-smif-green.svg)](https://anaconda.org/conda-forge/smif) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/smif.svg)](https://anaconda.org/conda-forge/smif) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/smif.svg)](https://anaconda.org/conda-forge/smif) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/smif.svg)](https://anaconda.org/conda-forge/smif) |
 
 Installing smif
 ===============
