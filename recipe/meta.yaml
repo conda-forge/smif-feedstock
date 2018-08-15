@@ -25,7 +25,9 @@ requirements:
     - six
     - pyscaffold >=3.0
   run:
-    - fiona >=1.7
+    - fiona >=1.7.13
+    - gdal >=2.2.4
+    - libgdal >=2.2.4
     - flask >=0.12
     - isodate >=0.6
     - networkx >=1.11
