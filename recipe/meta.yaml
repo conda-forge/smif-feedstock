@@ -34,8 +34,8 @@ requirements:
     - pyarrow >=0.8
     - python
     - python-dateutil >=2.6
-    - pyyaml >=3.12
     - rtree >=0.7
+    - ruamel.yaml
     - scikit-optimize >=0.3
     - shapely >=1.3
 
