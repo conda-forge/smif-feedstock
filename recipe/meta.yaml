@@ -13,20 +13,21 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv --no-deps"
-  skip: True  # [py<35 or win32]
+  script: "{{ PYTHON }} -m pip install . -vv"
+  noarch: python
   entry_points:
     - smif = smif.cli:main
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - setuptools >=30.3.0
     - six
     - pyscaffold >=3.0
   host:
     - pip
   run:
+    - python >=3.5
     - fiona >=1.7.13
     - gdal >=2.2.4
     - libgdal >=2.2.4
