@@ -21,9 +21,7 @@ API.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/smif-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/smif-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/smif-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/smif-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/smif-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/smif-feedstock/branch/master)
+All platforms: ![noarch disabled](https://img.shields.io/badge/noarch-disabled-lightgrey.svg)
 
 Current release info
 ====================
