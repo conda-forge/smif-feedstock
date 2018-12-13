@@ -19,13 +19,13 @@ build:
     - smif = smif.cli:main
 
 requirements:
-  host:
-    - pip
   build:
     - python
     - setuptools >=30.3.0
     - six
     - pyscaffold >=3.0
+  host:
+    - pip
   run:
     - fiona >=1.7.13
     - gdal >=2.2.4
