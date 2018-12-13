@@ -66,9 +66,10 @@ test:
     - smif.cli
     - smif.convert
     - smif.data_layer
+    - smif.data_layer.file
+    - smif.decision
     - smif.http_api
     - smif.model
-    - smif.parameters
   commands:
     - smif -h
 
