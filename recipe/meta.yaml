@@ -1,6 +1,6 @@
 {% set name = "smif" %}
-{% set version = "1.0.8" %}
-{% set sha256 = "944569592ead92a521bd497f7548016a7348fa0077bcd058857bfa01db4b72fc" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "f2cbe985d9cd3ea827cfc45ce4d2ba2cfd51ce3749b2f37338d9eb2b3e4c626e" %}
 
 package:
   name: {{ name|lower }}
