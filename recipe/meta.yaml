@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install . -vv
   noarch: python
   entry_points:
@@ -31,12 +31,14 @@ requirements:
     - gdal >=2.2.4
     - isodate >=0.6
     - libgdal >=2.2.4
+    - minio
     - networkx >=1.11
     - numpy >=1.11
     - pandas
     - pint >=0.8
     - pyarrow >=0.9
     - python-dateutil >=2.6
+    - requests
     - rtree >=0.7
     - ruamel.yaml ==0.15.50
     - shapely >=1.3
@@ -48,12 +50,14 @@ requirements:
     - gdal >=2.2.4
     - isodate >=0.6
     - libgdal >=2.2.4
+    - minio
     - networkx >=1.11
     - numpy >=1.11
     - pandas
     - pint >=0.8
     - pyarrow >=0.9
     - python-dateutil >=2.6
+    - requests
     - rtree >=0.7
     - ruamel.yaml ==0.15.50
     - shapely >=1.3
@@ -64,11 +68,15 @@ test:
   imports:
     - smif
     - smif.cli
+    - smif.controller
+    - smif.controller.job
+    - smif.controller.run
     - smif.convert
     - smif.data_layer
     - smif.data_layer.file
     - smif.decision
     - smif.http_api
+    - smif.metadata
     - smif.model
   commands:
     - smif -h
