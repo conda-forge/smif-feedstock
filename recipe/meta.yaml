@@ -1,6 +1,6 @@
 {% set name = "smif" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "4b954ca2d622518d428ba102ed1f21f9e5317feb5278af1a771170ae65e89217" %}
+{% set version = "1.2.1" %}
+{% set sha256 = "5e7bfc913f1ffc05cfb6e07016987ecb1c6d8b2d9a21cca2b56202f5b523f59d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python -m pip install . -vv
   noarch: python
   entry_points:
