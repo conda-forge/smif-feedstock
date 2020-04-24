@@ -11,11 +11,10 @@ Summary: Simulation Modelling Integration Framework
 
 smif is a framework for handling the creation of system-of-systems models.
 The framework handles inputs and outputs, dependencies between models,
-persistence of data and the communication of state across years. This early
+persistence of data and the communication of state across years. This
 version of the framework handles simulation models that simulate the
 operation of a system within a year. smif exposes an interface to a planning
-module which will allows different algorithms to be used against a common
-API.
+module which allows different algorithms to be used against a common API.
 
 
 Current build status
