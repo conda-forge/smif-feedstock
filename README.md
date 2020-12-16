@@ -5,9 +5,13 @@ Home: http://github.com/nismod/smif
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smif-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simulation Modelling Integration Framework
+
+Development: https://github.com/nismod/smif
+
+Documentation: http://smif.readthedocs.io/
 
 smif is a framework for handling the creation of system-of-systems models.
 The framework handles inputs and outputs, dependencies between models,
