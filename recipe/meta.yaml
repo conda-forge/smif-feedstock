@@ -8,11 +8,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install . -vv
   noarch: python
   entry_points:
@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
     - setuptools >=30.3.0
     - six
@@ -43,7 +43,7 @@ requirements:
     - shapely >=1.3
     - xarray
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - fiona >=1.7
     - flask >=0.12
     - gdal >=2.2.4
@@ -64,6 +64,8 @@ requirements:
 
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - smif
     - smif.cli
